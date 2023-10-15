@@ -942,4 +942,84 @@ export const movies: Movie[] = [
     title: "Moneyball",
     hasHappyEnding: null,
   },
+  {
+    guid: "9465cbdf-a9ea-4aa9-98ef-eca1b4d290c3",
+    title: "Momento",
+    hasHappyEnding: false, // Can't remember...
+  },
+  {
+    guid: "73e312be-5328-4715-bc30-61e7eefcf8e6",
+    title: "Another Round (Druk)",
+    hasHappyEnding: false, // Mads is drunk
+  },
+  {
+    guid: "25ebb9a6-744f-4971-9121-5a44ec7d8b7b",
+    title: "Run Fatboy Run",
+    hasHappyEnding: true, // Simon Pegg can run
+  },
+  {
+    guid: "61ae5d63-72ae-4fa7-9588-ef2e5ddaec13",
+    title: "I Love You, Man",
+    hasHappyEnding: true, //  Slappin Da Bass!
+  },
+  {
+    guid: "6bb8b4ba-9976-42d1-a0e6-de27e98033a5",
+    title: "The Post",
+    hasHappyEnding: true, // Watergate!
+  },
+  {
+    guid: "213eec5e-8d06-41f1-b0dd-3298f21306fd",
+    title: "Valentine's Day",
+    hasHappyEnding: true, // It's a romcom
+  },
+  {
+    guid: "a32a4e03-cf9e-44e6-8f3b-59c655046e32",
+    title: "Suedi",
+    hasHappyEnding: true, // Cash is king
+  },
+  {
+    guid: "e5370f34-872d-49ac-9deb-eca882c8dfdf",
+    title: "Jalla! Jalla!",
+    hasHappyEnding: true, // Roro gifter sig inte med Laleh
+  },
+  {
+    guid: "7a8fc599-51cd-478c-bcd9-2f280aa20d56",
+    title: "Snowpiercer",
+    hasHappyEnding: false, // Train crashes
+  },
+  {
+    guid: "bb04e8ec-47c1-47ae-b007-e5859d1bd2d0",
+    title: "About Time",
+    hasHappyEnding: true, // Tim is Carpe Diem
+  },
+  {
+    guid: "7ce43d16-6af7-414b-996c-43dc7523da5d",
+    title: "Popstar: Never Stop Never Stopping",
+    hasHappyEnding: true, // The Style Boyz are back in town
+  },
+  {
+    guid: "b4e9c60d-384a-4e73-b19b-6f63efd39f42",
+    title: "Sing",
+    hasHappyEnding: true, // The animals sing
+  },
+  {
+    guid: "f14b85a8-869b-43f5-965a-d5e56b8efe8c",
+    title: "Four Weddings and a Funeral",
+    hasHappyEnding: true, // Everyone's happy (except the friend who died)
+  },
+  {
+    guid: "ac3834ca-ecd5-439c-bba5-f4c2e8754ba0",
+    title: "CODA",
+    hasHappyEnding: true, // Ruby goes to collage
+  },
+  {
+    guid: "1afe3119-aa0b-4375-ac50-31fedc2d4f36",
+    title: "The Lost City",
+    hasHappyEnding: true, // They go on more adventures together
+  },
+  {
+    guid: "3cebdb56-a16a-406d-8829-7441df6f1bf1",
+    title: "Chef",
+    hasHappyEnding: true, // Don't watch this movie on an empty stomach
+  },
 ];
