@@ -5,14 +5,20 @@ export type Movie = {
 };
 
 /**
- * Movies from IMDBd top 250 list.
- * https://www.imdb.com/chart/top/
+ * List of movies.
  *
+ * ## Info
+ * The list starts with data from IMDBd top 250 list.
+ * https://www.imdb.com/chart/top/
  * Grabbed 2023-10-14 (October 14th, 2023).
  *
+ * The other entries are manually added.
+ *
+ * ## Contributing
  * The list is manually curated.
- * If you want to update it, submit a PR.
- * If you disagree with the list, submit a PR - and fight me ;)
+ *
+ * - If you want to update it, submit a PR.
+ * - If you disagree with the list, submit a PR - and fight me ;)
  */
 export const movies: Movie[] = [
   {
@@ -754,6 +760,186 @@ export const movies: Movie[] = [
   {
     guid: "09d1d7b5-19e5-4e95-bc34-5eadcc24c6eb",
     title: "Yojimbo",
+    hasHappyEnding: null,
+  },
+  {
+    guid: "7dc6ca38-4ccd-4d38-b56a-96d011922a27",
+    title: "Guillermo del Toro's Pinocchio",
+    hasHappyEnding: true, // Geppetto accepts Pinocchio as his son
+  },
+  {
+    guid: "c0da1ebd-8dbc-4ab0-a0e0-5a047fc02d28",
+    title: "Eighth Grade",
+    hasHappyEnding: true, // Kayla makes friends
+  },
+  {
+    guid: "4af6f17a-6704-4837-af45-db60f86cbade",
+    title: "Swiss Army Man",
+    hasHappyEnding: true, // Hank and Manny are friends
+  },
+  {
+    guid: "c3e2cf09-8b2b-478c-95ff-f142d50bbf21",
+    title: "Casino Royale",
+    hasHappyEnding: true, // Mads Mikkelsen dies
+  },
+  {
+    guid: "b6258f08-2d28-4c8b-99f0-c94b5cd2ff1d",
+    title: "The Social Network",
+    hasHappyEnding: false, // Mark is an asshole
+  },
+  {
+    guid: "b6a58e61-1902-43e0-9866-48cbb302f95d",
+    title: "Dead Poets Society",
+    hasHappyEnding: true, // O Captain! My Captain!
+  },
+  {
+    guid: "08e89bcd-fd4a-408f-ab6e-3b716c3e8193",
+    title: "The Super Mario Bros. Movie",
+    hasHappyEnding: true, //  Chris Pratt, he’s so cool.
+  },
+  {
+    guid: "9d2a0213-62c7-48a5-9bc9-456de3711a7d",
+    title: "Sound of Metal",
+    hasHappyEnding: false, // Ruben loses his hearing
+  },
+  {
+    guid: "03ff65cc-4d9f-411f-87ae-01bd82a4e812",
+    title: "Marcel the Shell with Shoes on",
+    hasHappyEnding: true, // Marcel is happy
+  },
+  {
+    guid: "ec0e3c36-7165-4c5c-ad48-051daf4bb87a",
+    title: "The Piano",
+    hasHappyEnding: true, // She begins to talk again
+  },
+  {
+    guid: "5e678150-49c2-4e1f-9701-e910c39fb040",
+    title: "Argo",
+    hasHappyEnding: true, // They escape
+  },
+  {
+    guid: "23f32de7-1a39-4b5d-ac9b-2d6d6990b227",
+    title: "Falling for Christmas",
+    hasHappyEnding: true, // She falls in love
+  },
+  {
+    guid: "67d65517-c7ee-48cc-99c3-3aadbce0dc05",
+    title: "Enola Holmes",
+    hasHappyEnding: true, // She finds her mother
+  },
+  {
+    guid: "fbcf86e1-91f4-4118-a732-af6befef3e2c",
+    title: "Enola Holmes 2",
+    hasHappyEnding: true, // Factory workers get their rights (?)
+  },
+  {
+    guid: "ad6f5ada-23d6-4b83-b0d2-c897a93c5100",
+    title: "Bad Neighbours",
+    hasHappyEnding: true, // Zac Efron is ripped
+  },
+  {
+    guid: "405c8dea-55af-4f00-90bf-132e55762e7f",
+    title: "Bad Neighbours 2",
+    hasHappyEnding: true, // Zac Efron is still ripped
+  },
+  {
+    guid: "4dfbb321-117f-4718-97e8-a693eb439f7d",
+    title: "It's Complicated",
+    hasHappyEnding: true, // Meryl Streep is happy
+  },
+  {
+    guid: "de4747d0-df16-4b17-bd3c-baae07548451",
+    title: "The Dictator",
+    hasHappyEnding: true, // Sacha Baron Cohen is funny
+  },
+  {
+    guid: "beb17494-ca45-4585-96fe-80ede0078c2b",
+    title: "Set It Up",
+    hasHappyEnding: true, // They fall in love
+  },
+  {
+    guid: "fc9f3dbc-3932-4264-9aef-f7bbd94fbac4",
+    title: "American Psycho",
+    hasHappyEnding: false, // Dorsia is fully booked
+  },
+  {
+    guid: "c8ece062-d9c9-4175-9e5b-7b8ebf2d844a",
+    title: "Sommaren med Göran",
+    hasHappyEnding: true, // Göran får tjejen
+  },
+  {
+    guid: "e49bbbc2-0a70-419f-824c-52afc1e2ff96",
+    title: "Kiki's Delivery Service",
+    hasHappyEnding: true, // Kiki saves the day
+  },
+  {
+    guid: "46d46537-d04c-45ac-a532-a541f3812a45",
+    title: "Metal Lords",
+    hasHappyEnding: true, // Metal is not dead
+  },
+  {
+    guid: "9ff6b897-aeaf-4986-9c02-4128f8d7bc72",
+    title: "School of Rock",
+    hasHappyEnding: true, // Jack Black is back, and his back is black. And he's Jack.
+  },
+  {
+    guid: "8b259321-087e-449a-82c0-77c3a5c19f06",
+    title: "Mr. & Mrs. Smith",
+    hasHappyEnding: true, // They fall in love in real life
+  },
+  {
+    guid: "3715c1ba-9554-42f9-b3f9-ca45a4f43ce9",
+    title: "When Marnie Was There",
+    hasHappyEnding: true, // Can't remember...
+  },
+  {
+    guid: "18985b49-c651-4d50-b544-a1b53bd15b2d",
+    title: "The Adam Project",
+    hasHappyEnding: true, // Ryan Reynolds is Ryan Reynolds (and Netflix has a lot of money)
+  },
+  {
+    guid: "f2f1247a-ed24-4a98-a6b1-d2ff7d53a604",
+    title: "This Is 40",
+    hasHappyEnding: true, // They reconcile.
+  },
+  {
+    guid: "84fddc38-1d1c-4e97-9d58-23752a4aeb34",
+    title: "The Imitation Game",
+    hasHappyEnding: false, // Homosexuality was illegal in the UK at the time, and Turing was chemically castrated as punishment for his sexuality.
+  },
+  {
+    guid: "233610ae-1e9a-4514-bd30-e87b262f270e",
+    title: "Baby Driver",
+    hasHappyEnding: true, // Baby and Debora escape
+  },
+  {
+    guid: "1a9e1c0a-0f76-4355-b323-0af8fe6f01ff",
+    title: "Ur spår",
+    hasHappyEnding: true, // He finish the Vasaloppet
+  },
+  {
+    guid: "dec2f4f5-0dc5-46c8-b647-8da192265ebe",
+    title: "Knives Out",
+    hasHappyEnding: true, // Marta gets the house
+  },
+  {
+    guid: "efa073fc-fdd6-41de-96fa-d7fed0f9dc48",
+    title: "Glass Onion: A Knives Out Mystery",
+    hasHappyEnding: true, // Miles Bron is an idiot
+  },
+  {
+    guid: "543da9ba-e556-4379-9971-f4eeaea38d00",
+    title: "Munich - The Edge of War",
+    hasHappyEnding: null,
+  },
+  {
+    guid: "d048c14f-ae42-4e80-a5f3-63f9237172d3",
+    title: "Mestari Cheng",
+    hasHappyEnding: true, // Cheng cooks good food
+  },
+  {
+    guid: "a253ffa9-7127-4d0a-a686-fe9bd03f2b48",
+    title: "Moneyball",
     hasHappyEnding: null,
   },
 ];
