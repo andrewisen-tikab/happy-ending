@@ -1022,4 +1022,154 @@ export const movies: Movie[] = [
     title: "Chef",
     hasHappyEnding: true, // Don't watch this movie on an empty stomach
   },
+  {
+    guid: "4ad3738f-fbed-41be-8353-8f65bb12fd84",
+    title: "Snow White and the Seven Dwarfs",
+    hasHappyEnding: true, // Snow White lives happily ever after
+  },
+  {
+    guid: "e57a8ef3-be0e-4daa-9ad6-b76367b030a1",
+    title: "Pinocchio",
+    hasHappyEnding: true, // Pinocchio is a boy
+  },
+  {
+    guid: "e06b95e9-aedf-450a-818c-06567ce341bd",
+    title: "Mulan",
+    hasHappyEnding: true, // Mulan is a girl worth fighting for
+  },
+  {
+    guid: "6c3608ee-336e-4353-ace5-0ffbbf9b4d16",
+    title: "The Parent Trap",
+    hasHappyEnding: true, // Lindsay Lohan is not a twin
+  },
+  {
+    guid: "4bd5bf08-f41a-4680-85a9-1cc8afecddfd",
+    title: "A Bug's Life",
+    hasHappyEnding: true, // They are poo-poo heads!
+  },
+  {
+    guid: "84c5e77f-ccc7-4e47-b5a0-c2cf07435944",
+    title: "Tarzan",
+    hasHappyEnding: true, // Phil Collin is a legend
+  },
+  {
+    guid: "920a6e7e-a81d-4269-8f0c-fb3355b584a2",
+    title: "Toy Story 2",
+    hasHappyEnding: true, // Woody is not a collectible - he's a toy
+  },
+  {
+    guid: "609aa2c8-61c0-4f5f-9c71-52c33281e24e",
+    title: "The Emperor's New Groove",
+    hasHappyEnding: true, // Wrong lever!
+  },
+  {
+    guid: "7ee65ec1-7e40-496a-9213-071fddceda0e",
+    title: "Monsters, Inc.",
+    hasHappyEnding: true, // Boo is back
+  },
+  {
+    guid: "7aa95396-a675-4cab-a90f-1737c1416ab6",
+    title: "Lilo & Stitch",
+    hasHappyEnding: true, // Ohana means family
+  },
+  {
+    guid: "49ddc928-58e1-4278-9735-eb9d6564e8ab",
+    title: "Finding Nemo",
+    hasHappyEnding: true, // Nemo is found
+  },
+  {
+    guid: "678e909a-68b8-429f-a15f-6237e894760e",
+    title: "The Incredibles",
+    hasHappyEnding: true, // No capes!
+  },
+  {
+    guid: "68a86039-ee54-4a8d-b8c2-2f98fd542956",
+    title: "Cars",
+    hasHappyEnding: true, // This is the beginning of the end for Pixar
+  },
+  {
+    guid: "9ffc0b9d-8954-44fe-b28a-ff26297aa2bf",
+    title: "Ratatouille",
+    hasHappyEnding: true, // Anyone can cook - but not everyone should!
+  },
+  {
+    guid: "adbedf3d-09f2-4276-8aa7-8b7bf1b89de3",
+    title: "WALL-E",
+    hasHappyEnding: true, // The humans return to Earth
+  },
+  {
+    guid: "2fb2f3fc-7713-4eb3-a03c-95d51df91219",
+    title: "Tangled",
+    hasHappyEnding: true, // Rapunzel lives happily ever after
+  },
+  {
+    guid: "01319b90-306f-42bd-8e4d-e2b70c2f3997",
+    title: "Wreck-It Ralph",
+    hasHappyEnding: true, // Ralph is a good guy
+  },
+  {
+    guid: "17830c3f-69aa-4a51-b1a6-8cd13affd29f",
+    title: "Monsters University",
+    hasHappyEnding: true, // Mike and Sulley are friends
+  },
+  {
+    guid: "2c501f47-001b-4aef-8aa5-441e2affa17c",
+    title: "Frozen",
+    hasHappyEnding: true, // Let it go!
+  },
+  {
+    guid: "32aa5833-37b9-45e7-bc79-46dd371bd2ee",
+    title: "Big Hero 6",
+    hasHappyEnding: true, // Baymax is a hero
+  },
+  {
+    guid: "3a3ac4f4-a38e-4ab1-9394-08d4cdb24308",
+    title: "Inside Out",
+    hasHappyEnding: true, // Sadness is important!
+  },
+  {
+    guid: "0edceb68-02c3-4aff-bd16-283357854d6a",
+    title: "Zootopia",
+    hasHappyEnding: true, // Judy Hopps is a cop
+  },
+  {
+    guid: "81896218-d5f8-4180-81fa-c19b05dd88dc",
+    title: "Moana",
+    hasHappyEnding: true, // You're welcome!
+  },
+  {
+    guid: "5bcf5b40-27cd-4945-9b75-57a7b0f171d4",
+    title: "Coco",
+    hasHappyEnding: true, // Miguel is a musician
+  },
+  {
+    guid: "573269c7-64d0-426a-81db-3d356faf8cd4",
+    title: "Incredibles 2",
+    hasHappyEnding: true, // The Incredibles are back
+  },
+  {
+    guid: "4bef1082-0cc0-41d5-867e-4694772f7517",
+    title: "Toy Story 4",
+    hasHappyEnding: true, // Sporky is a toy
+  },
+  {
+    guid: "38ce36b3-9950-4d66-bf4e-8b7372130906",
+    title: "Frozen II",
+    hasHappyEnding: true, // Into the unknown!
+  },
+  {
+    guid: "f9443d89-d2a8-4dc3-8339-514ee5f9c489",
+    title: "Onward",
+    hasHappyEnding: true, // Brandi Carlile is in the end credits
+  },
+  {
+    guid: "5287ec37-851f-462d-95b7-ee4a4397d8b0",
+    title: "Soul",
+    hasHappyEnding: true, // 22 gets a life
+  },
+  {
+    guid: "5287ec37-851f-462d-95b7-ee4a4397d8b0",
+    title: "Encanto",
+    hasHappyEnding: true, // We don't talk about Bruno
+  },
 ];
