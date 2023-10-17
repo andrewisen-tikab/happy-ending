@@ -39,6 +39,7 @@ export class _MovieSearchEngine {
    * Initialize the database.
    */
   public async initAsync(): Promise<void> {
+    const start = performance.now();
     // Create the database
     this._database = await create({
       schema: {
@@ -50,12 +51,13 @@ export class _MovieSearchEngine {
     // Insert all movies
     movies.forEach(async (movie) => {
       const { title, guid } = movie;
-
       await insert<any>(this._database!, {
         guid,
         title,
       });
     });
+    const end = performance.now();
+    console.log(`Database initialized in ${end - start}ms`);
   }
 
   /**
