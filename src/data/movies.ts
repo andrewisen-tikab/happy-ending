@@ -1172,4 +1172,9 @@ export const movies: Movie[] = [
     title: "Encanto",
     hasHappyEnding: true, // We don't talk about Bruno
   },
+  {
+    guid: "5bd4f26d-f1d8-4d5c-9e7b-d7a668eaa096",
+    title: "Million Dollar Baby",
+    hasHappyEnding: false, // Frankie kills Maggie
+  },
 ];
